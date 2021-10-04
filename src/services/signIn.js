@@ -7,6 +7,6 @@ export const signIn = (user) => {
       localStorage.setItem('token', res.data.token)
     })
     .catch((err) => {
-      alert('Hubo un error. Por favor reintentalo.')
+      alert('there was an error, please try again.')
     })
 }
